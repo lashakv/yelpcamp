@@ -41,11 +41,10 @@ app.use('/', indexRoutes);
 app.use('/campgrounds/:id/comments', commentRoutes);
 app.use('/campgrounds',campgroundRoutes);
 
-var connectionString = 'mongodb://yelpcamp:249596380@ds155509.mlab.com:55509/yelpcamp';
 var options = {
     server: {socketOptions: {keepAlive: 1}}
 };
-mongoose.connect(connectionString, options);
+mongoose.connect(process.env.DatabaseURL, options);
 
 app.listen(process.env.PORT || 3000, function () {
     console.log("YelpCamp server is running!")
