@@ -47,7 +47,7 @@ var options = {
 };
 mongoose.connect(connectionString, options);
 
-app.listen(8080, function () {
+app.listen(process.env.PORT || 3000, function () {
     console.log("YelpCamp server is running!")
 });
 
