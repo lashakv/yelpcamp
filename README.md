@@ -1,2 +1,12 @@
 # YelpCamp
-Project implemented during Colt Steele's "The Web Developer Bootcamp" on Udemy
+
+This project is completed during Colt Steel's course on Udemy.com with skills such as:
+  - Javascript
+  - HTML/CSS
+  - RESTful Web Services
+  - ExpressJS
+  - PassportJS
+  - EJS
+  - MongoDB
+  - NPM
+  - Heroku 
